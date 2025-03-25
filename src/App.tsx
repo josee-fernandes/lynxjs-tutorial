@@ -6,7 +6,8 @@ import { furnituresPictures } from './components/FurniturePictures.jsx'
 
 export const App: FC = () => {
   return (
-    <view>
+    <view
+    >
      <Gallery pictureData={furnituresPictures}/>
     </view>
   )
